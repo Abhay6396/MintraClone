@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.left img{
+    width: 70px;
+}
+.left{
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+    border: 2px solid red;
+}
+.left ul{
+    display: flex;
+    list-style: none;
+    border: 2px solid green;
+}
+.left ul li{
+    padding: 15px;
+}
+.right{
+    display: flex;
+    align-items: center;
+}
