@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+header{
+    margin-top: 15px;
+}
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -11,14 +14,17 @@
 }
 .left{
     display: flex;
-    margin-left: 10px;
+    margin-left: 50px;
     align-items: center;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 .left ul{
     display: flex;
     list-style: none;
-    border: 2px solid green;
+    /* border: 2px solid green; */
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 1000;
+    color: rgb(52, 52, 52);
 }
 .left ul li{
     padding: 15px;
@@ -26,4 +32,7 @@
 .right{
     display: flex;
     align-items: center;
+}
+.right input{
+    height: 30px;
 }
