@@ -27,7 +27,7 @@ header{
     list-style: none;
     /* border: 2px solid green; */
     font-family: 'Roboto Condensed', sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     color: rgb(52, 52, 52);
 }
 .left ul li{
@@ -75,4 +75,32 @@ header{
     display: flex;
     justify-content: center;
     margin-top: 15px;
+    /* animation: slider 1s linear infinite; */
+    animation-delay: 10s;
+}
+
+@keyframes slider {
+    from{
+        margin-left: 3vw; 
+    }
+    to{
+        margin-left: 200vw;
+    }
+    
+}
+.sponser img{
+    width: 100%;
+    margin-top: 40px;
+}
+.coupons p {
+    font-family: 'Caveat', cursive;
+font-family: 'Foldit', cursive;
+font-family: 'Oswald', sans-serif;
+font-family: 'Playfair Display', serif;
+font-size: 30px;
+text-align: center;
+padding-top: 10px;
+}
+.coupons img{
+    padding-top: 10px;
 }
