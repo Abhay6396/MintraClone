@@ -104,3 +104,41 @@ padding-top: 10px;
 .coupons img{
     padding-top: 10px;
 }
+.deals p {
+    font-family: 'Caveat', cursive;
+font-family: 'Foldit', cursive;
+font-family: 'Oswald', sans-serif;
+font-family: 'Playfair Display', serif;
+font-size: 30px;
+text-align: center;
+padding-top: 10px;
+}
+.dealsgall{
+    display: grid;
+    grid-template-columns: 222px 222px 222px 222px 222px 222px;
+}
+.dealsgall img{
+    width: 230px;
+    /* border: 2px solid green; */
+}
+.category p {
+    font-family: 'Caveat', cursive;
+font-family: 'Foldit', cursive;
+font-family: 'Oswald', sans-serif;
+font-family: 'Playfair Display', serif;
+font-size: 30px;
+text-align: center;
+padding-top: 10px;
+}
+
+.catgal{
+    display: grid;
+    grid-template-columns: 222px 222px 222px 222px 222px 222px;
+    justify-content: center;
+    align-items: center;
+    gap: 0px 0px;
+}
+.catgal img{
+    width: 220px;
+    /* border: 2px solid green; */
+}
