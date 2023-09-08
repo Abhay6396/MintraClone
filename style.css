@@ -3,9 +3,13 @@
     padding: 0;
 }
 header{
-    margin-top: 15px;
+    box-shadow: 0px 1px 5px rgb(226, 226, 226);
+    position: sticky ;
+    top: 0px;
+    background-color: white;
 }
 .navbar{
+    padding: 10px;
     display: flex;
     justify-content: space-between;
 }
@@ -23,7 +27,7 @@ header{
     list-style: none;
     /* border: 2px solid green; */
     font-family: 'Roboto Condensed', sans-serif;
-    font-weight: 1000;
+    font-weight: 600;
     color: rgb(52, 52, 52);
 }
 .left ul li{
@@ -35,4 +39,40 @@ header{
 }
 .right input{
     height: 30px;
+}
+.right .searchbar input{
+    border: none;
+    background-color:  rgb(216, 216, 216);
+    padding: 0px 10px;
+}
+.searchbar{
+    background-color: rgb(216, 216, 216);
+    width: 50vh;
+    border-radius: 5px;
+    margin: 0px 10px;
+}
+.right .searchbar i{
+    padding: 0px 10px;
+}
+.navicon{
+    padding: 0px 20px;
+}
+.icondiv span{
+    font-size: 10px;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.icondiv{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+}
+.offer img{
+    width: 100%;
+    margin-top: 30px;
+}
+.casrol{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
 }
